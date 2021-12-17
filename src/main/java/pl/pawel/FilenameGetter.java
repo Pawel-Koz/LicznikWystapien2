@@ -6,9 +6,7 @@ import java.util.Scanner;
 
 @AllArgsConstructor
 public class FilenameGetter {
-
     private Scanner sc;
-
 
     public String getFilename(FilePurpose purpose){
         if(purpose.equals(FilePurpose.LOAD)){

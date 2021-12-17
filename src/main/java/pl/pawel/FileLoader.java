@@ -17,7 +17,7 @@ public class FileLoader {
             return sb.toString();
         }catch (IOException ioe){
             System.err.println(ioe.getMessage());
-        }
+        }//nie jestem pewien czy dobrze poradziłem sobie z ta sytuacja
         throw new NullPointerException();
     }
 }
